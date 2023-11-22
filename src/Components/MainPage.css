@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&family=Poppins&family=Sofia+Sans+Extra+Condensed:wght@700&display=swap');
+
+.mainContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer .searchBarContainer input{
+    width: 250px;
+    background-color: lightgray;
+    border-radius: 30px;
+    padding: 20px;
+    border: none;
+}
+
+.mainContainer .searchBarContainer button{
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.mainContainer .contentContainer{
+    background-image: url('https://images.pexels.com/photos/912364/pexels-photo-912364.jpeg?cs=srgb&dl=pexels-brett-sayles-912364.jpg&fm=jpg');
+    background-size: cover;
+    text-align: left;
+    border-radius: 15px;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    width: 50%;
+    color: white;
+}
+
+.mainContainer .contentContainer .cityContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.mainContainer .contentContainer .cityContainer .cityWeather{
+    margin: 10px;
+    padding: 10px;
+}
+
+.mainContainer .contentContainer .cityContainer .cityWeather h1, p{
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer .contentContainer .tempratureContainer h1{
+    font-size: 80px;
+    margin: 0;
+}
+
+.mainContainer .contentContainer .tempratureContainer p{
+    font-size: large;
+    padding-left: 15px;
+}
+
+.mainContainer .contentContainer .detailWeatherContianer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.mainContainer .contentContainer .detailWeatherContianer .heading{
+    margin-bottom: 10px;
+}

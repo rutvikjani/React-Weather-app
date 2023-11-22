@@ -1,0 +1,40 @@
+
+
+.RegisterForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.RegisterForm input{
+    width: 350px;
+    border: none;
+    border-bottom: 1px solid;
+    padding: 12px;
+    background: transparent;
+    font-size: medium;
+}
+
+.RegisterForm ::-webkit-outer-spin-button,
+.RegisterForm ::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.RegisterForm button{
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: medium;
+    letter-spacing: 2px;
+    background-color: skyblue;
+    cursor: pointer;
+}
+
+.RegisterForm input::placeholder{
+    color: black;
+}

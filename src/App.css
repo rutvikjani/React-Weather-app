@@ -1,0 +1,42 @@
+html{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*:focus{
+  outline: none;
+}
+
+body{
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+  max-height: 100vh; font-family: 'Poppins', sans-serif;
+  background-image: url("https://img.freepik.com/free-photo/nature-colorful-landscape-dusk-cloud_1203-5705.jpg?size=626&ext=jpg&uid=R95363853&ga=GA1.1.681004045.1673003979&semt=ais");
+  background-size: cover;
+}
+
+.LoginPage{
+  margin: 0;
+  height: 100vh;
+}
+.App {
+  text-align: center;
+  margin: 0 auto;
+  width: 500px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.LoginContainer .LoginForm button :hover{
+  background-color: black;
+}

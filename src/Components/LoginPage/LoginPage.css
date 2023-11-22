@@ -1,0 +1,30 @@
+.LoginContainer .LoginForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 100px;
+    border: none;
+}
+
+.LoginContainer .LoginForm input{
+    width: 350px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    font-size: medium;
+    border-bottom: 1px solid white;
+}
+
+.LoginContainer .LoginForm button{
+    padding: 10px;
+    width: 250px;
+    border-radius: 20px;
+    border: none;
+    font-size: large;
+    letter-spacing: 1px;
+    font-size: medium;
+    letter-spacing: 2px;
+    background-color: lightblue;
+}
